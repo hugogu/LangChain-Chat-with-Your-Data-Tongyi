@@ -56,3 +56,16 @@ You'll learn about:
 🌟**Andrew Ng** is Renowned AI researcher, co-founder of Coursera, and the founder of DeepLearning.AI. With a wealth of knowledge and expertise in the field, Andrew has played a pivotal role in popularizing AI education.
 
 🔗 Reference: "LangChain: Chat with Your Data" course. To enroll in the course or for further information, visit [deeplearning.ai](https://www.deeplearning.ai).
+
+## Setup before Running
+
+1. Add `.env` file with following content:
+    ```text
+    LANGCHAIN_TRACING_V2=true
+    LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+    LANGCHAIN_API_KEY="<YOUR_LANG_SMITH_KEY>"
+    LANGCHAIN_PROJECT="langchain-chat-with-data"
+    
+    OPENAI_API_KEY="<YOUR_Aliyun_API_KEY>"
+    OPENAI_API_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
+    ```
